@@ -12,8 +12,8 @@ export default class ProductPresenter {
 
     return toXML(
       {
-        customers: {
-          customer: data.products.map((product) => ({
+        products: {
+          product: data.products.map((product) => ({
             id: product.id,
             name: product.name,
             price: product.price,
